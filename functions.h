@@ -28,7 +28,7 @@ int displayError(char *message);
 void getInput(shelldata_t *mytype);
 int writeCharacterToFD(char cha, int fil_d);
 int _strlen(char *s);
-char *_strcat(char *dest, char *src);
+char *_stricat(char *desti, char *src);
 char *_strcpy(char *dest, char *src);
 char *_strdup(char *str);
 int _strcmp(char *s1, char *s2);
